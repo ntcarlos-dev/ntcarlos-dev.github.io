@@ -1,0 +1,62 @@
+
+.footer{
+    background: black;
+
+}
+
+.footer-container{      
+
+max-width: 950px;
+padding: 60px 20px 60px 20px ;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 80px;
+font-weight: bold;
+
+}
+
+.footer-texto{
+    font-size: 1.2rem;
+    line-height: 1.33;
+    color: #02b2df;
+    text-align: center;
+
+    
+}
+
+.footer-container li {
+    color: yellowgreen;
+    font-size: 1.3rem;
+    line-height: 0.5;
+    margin-bottom: 30px;
+}
+
+.footer-container a {
+color: yellowgreen;
+text-decoration: none;
+}
+
+.footer .contato{
+    background: #494a4a39;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+@media(max-width: 800px){
+.footer-container{
+    grid-template-columns: 1fr;
+    gap: 5px;
+    
+}
+    .footer-texto{
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.contato ul{
+    padding-left: 100px;
+    gap:20px;
+    
+}
+}

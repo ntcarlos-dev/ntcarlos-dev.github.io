@@ -1,0 +1,62 @@
+body{
+    font-family: "Fira Sans", monospace;
+    
+    margin: 0px;
+    font-size: 1.2rem;
+    background-color: #000000;
+}
+
+h1, h2, h3, p{
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+img{
+    
+    max-width: 100%;
+    height: 90px;
+    margin: 10px;
+    display: block;
+}
+
+.introducao img{
+    max-width: 100%;
+    width: 210px;
+    height: 220px;
+    padding-left: 170px;
+
+}
+.subtitulo{
+    font-size: 6rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+    padding-top: 30px;
+    padding-left: 100px;
+    color: rgba(0, 0, 0, 0.545);
+}
+
+@media(max-width: 800px){
+    .subtitulo{
+       grid-template-columns: 1fr;
+        font-size: 3rem;
+        max-width: initial;
+        padding-left: 0px;    
+    }
+
+
+}
+
+.formacao{
+    background-color: rgba(255, 255, 255, 0.164);
+    padding-top: 40px;
+}
+
